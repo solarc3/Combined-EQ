@@ -1,10 +1,9 @@
 # Moondrop KATO
-See [usage instructions](https://github.com/jaakkopasanen/AutoEq#usage) for more options and info.
+Utilizando AutoEQ, se combino el input de los KATO y Blessing 2, generando un EQ simulado para ecualizadores, en este caso para EqualizerAPO
+Requiere de entrada "measurements/rtings/data/inear/Moondrop KATO/" y de sound signature "results/oratory1990/harman_in-ear_2019v2/Moondrop Blessing 2/Moondrop Blessing 2.csv"
+Todo fue compensando con el harmar in ear sin bass (Que se encuentra en los mismos archivos del repo de AutoEQ)
 
 ### Parametric EQs
-In case of using parametric equalizer, apply preamp of **-2.3dB** and build filters manually
-with these parameters. The first 5 filters can be used independently.
-When using independent subset of filters, apply preamp of **-2.4 dB**.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
@@ -18,8 +17,6 @@ When using independent subset of filters, apply preamp of **-2.4 dB**.
 | Peaking | 9200 Hz  | 5.19 | -1.0 dB |
 
 ### Fixed Band EQs
-In case of using fixed band (also called graphic) equalizer, apply preamp of **-2.2dB**
-(if available) and set gains manually with these parameters.
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
