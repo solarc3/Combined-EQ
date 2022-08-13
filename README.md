@@ -1,10 +1,13 @@
-# Moondrop KATO
-Utilizando AutoEQ, se combino el input de los KATO y Blessing 2, generando un EQ simulado para ecualizadores, en este caso para EqualizerAPO
+# Moondrop KATO EQ
+Utilizando [AutoEq](https://github.com/jaakkopasanen/AutoEq), se combino el input de los KATO y Blessing 2, generando un EQ simulado para ecualizadores, en este caso para EqualizerAPO
 
 Requiere de entrada "measurements/rtings/data/inear/Moondrop KATO/" y de sound signature "results/oratory1990/harman_in-ear_2019v2/Moondrop Blessing 2/Moondrop Blessing 2.csv"
-Todo fue compensando con el harmar in ear sin bass (Que se encuentra en los mismos archivos del repo de AutoEQ)
+
+Todo fue compensando con el harman in ear sin bass (Que se encuentra en los mismos archivos del repo de [AutoEq](https://github.com/jaakkopasanen/AutoEq))
 
 ### Parametric EQs
+
+PreAmp de -2,2dB
 
 | Type    | Fc       |    Q | Gain    |
 |:--------|:---------|:-----|:--------|
